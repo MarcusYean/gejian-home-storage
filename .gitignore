@@ -1,0 +1,19 @@
+# WorkBuddy 项目数据与设计检查产物（本地保留，不入库）
+.workbuddy/
+.taste-skill/
+
+# 构建过程的截图与一次性调试脚本
+.build/shots/
+.build/debug.mjs
+
+# 本地临时凭据与 API 响应（绝不入库）
+.build/.gh_pat
+.build/.gh_*.json
+.env
+*.token
+
+# 系统 / 编辑器 / 依赖
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
